@@ -44,9 +44,11 @@ Vermouth  | 66.13  | 92.35  | 42.52  | 66.62  | 88.93  | 51.05  | 45.78  | 58.09
 
 ## cite
 If you find our work useful in your research, please consider citing:
-> @articledong2024bridging,
-  title=Bridging Generative and Discriminative Models for Unified Visual Perception with Diffusion Priors},
-  author=Dong, Shiyin and Zhu, Mingrui and Cheng, Kun and Wang, Nannan and Gao, Xinbo},
-  journal=arXiv preprint arXiv:2401.16459},
-  year=2024}
+```
+@article{dong2024bridging,
+  title={Bridging Generative and Discriminative Models for Unified Visual Perception with Diffusion Priors},
+  author={Dong, Shiyin and Zhu, Mingrui and Cheng, Kun and Wang, Nannan and Gao, Xinbo},
+  journal={arXiv preprint arXiv:2401.16459},
+  year={2024}
 }
+```
