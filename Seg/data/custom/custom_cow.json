@@ -1,0 +1,10 @@
+{
+    "class_name": ["cow", "grass", "tree","sky"],
+    "templates": [
+        "a photo of a {}.",
+        "This is a photo of a {}",
+        "There is a {} in the scene",
+        "There is the {} in the scene",
+        "a photo of a {} in the scene"
+    ]
+}
