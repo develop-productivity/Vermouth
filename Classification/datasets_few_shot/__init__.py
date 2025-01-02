@@ -13,7 +13,7 @@ from .stanford_cars import StanfordCars
 from .imagenet import ImageNet
 
 import os
-DATASET_ROOT = os.getenv('DATASET_ROOT', '/data/sydong/datasets')
+DATASET_ROOT = os.getenv('DATASET_ROOT', './datasets/Few-shot_cls')
 
 dataset_list = {
                 "oxford_pets": OxfordPets,

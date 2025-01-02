@@ -34,7 +34,23 @@ Swinv2-L | 89.65  | 99.61 | 29.13  | 73.1 | 86.9  | 37.75  | 77.41 | 72.63 | 97.
 DINO-B  | 89.32  | 97.82  | 48.3 | 69  | 91.15 | 57.17  | 58.5  | 62.44  | 95.57  | 76.97  | 67.66  | 73.99 
 Vermouth  | 66.13  | 92.35  | 42.52  | 66.62  | 88.93  | 51.05  | 45.78  | 58.09  | 95.83  | 70.49  | 55.89  | 66.74 
 
-## How to use
+## Quick Start
+You should clone thos repo and create a python env
+```
+git clone https://github.com/develop-productivity/Vermouth.git
+cd Vermouth
+conda create -n env_name python=3.10
+pip install -r requirments.txt
+```
+
+### datasets
+
+You can follow these repo to download the datasets
+* Few-shot classification: https://github.com/gaopengcuhk/Tip-Adapter.git
+* Sketch-based image retrieval: https://github.com/qliu24/SAKE
+* Open-vocabulary image segmentation: https://github.com/MendelXu/zsseg.baseline.git
+
+You should originize you file as `datasets` dir
 
 
 ## TODO

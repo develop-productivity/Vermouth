@@ -80,7 +80,7 @@ def quickdraw_zero_load(args, transformations=None):
 class QuickDrawDataset(Dataset):
     # cid_mask: wordnet output
     def __init__(self, split='train',
-                 root_dir='./dataset/QuickDraw/',
+                 root_dir='./dataset/SBIR/QuickDraw/',
                  version='sketch', zero_version='zeroshot',\
                  cid_mask=False, transform=None, aug=False, ndebug=9999999):
         
@@ -167,7 +167,7 @@ def tuberlin_zero_load(args, transformations=None):
 
 class TUBerlinDataset(Dataset):
     def __init__(self, split='train',
-                 root_dir='./dataset/TUBerlin/',
+                 root_dir='./dataset/SBIR/TUBerlin/',
                  version='png_ready', zero_version='zeroshot', \
                  cid_mask = False, transform=None, aug=False):
         
@@ -244,8 +244,8 @@ def sketchy_zero_load(args, transformations=None):
                                 transform=transformations, aug=False)
     photo_zero = SketchyDataset(split='zero', root_dir=args.root_dir, version='all_photo', zero_version = args.zero_version,\
                                     transform=transformations, aug=False)
-    # class_embedding_file = f'./dataset/Sketchy/{args.zero_version}/class_embs_RN50_{args.prompt}_zero.pickle'
-    # class_labels_file = f'./dataset/Sketchy/{args.zero_version}/cname_cid.txt'
+    # class_embedding_file = f'./dataset/SBIR/Sketchy/{args.zero_version}/class_embs_RN50_{args.prompt}_zero.pickle'
+    # class_labels_file = f'./dataset/SBIR/Sketchy/{args.zero_version}/cname_cid.txt'
     # with open(class_labels_file) as fp:
     #     all_class = [c.split()[0] for c in fp.readlines()] # 读取训练的类别标签
     # with open(class_embedding_file, 'rb') as fh:
@@ -259,7 +259,7 @@ class SketchyDataset(Dataset):
     # cid_mask: wordnet output
     # =================================
     def __init__(self, split='train',
-                 root_dir='./dataset/Sketchy/',
+                 root_dir='./dataset/SBIR/Sketchy/',
                  version='sketch_tx_000000000000_ready', zero_version='zeroshot2',\
                  cid_mask = False, transform=None, aug=False, ndebug=999999):
         self.root_dir = root_dir
