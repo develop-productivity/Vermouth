@@ -55,7 +55,7 @@ You should originize you file as `datasets` dir
 
 ## TODO
 - [x] release core code
-- [ ] clean the project code 
+- [ ] release the web page
 - [ ] release model pre-train weight
 
 ## cite
